@@ -18,14 +18,14 @@ public class Main {
 			arr[i] = x % 42;
 		}
 
-		for (int i = 0; i < 10; i++) { // 10개중 중복값이 있는지 검증하는 부분
+		for (int i = 0; i < 10; i++) { 
 			int ct = 0;
 			for (int j = i + 1; j < 10; j++) {
-				if (arr[i] == arr[j]) { // 순차로 진행된 j 부터 같은값을 찾는다.
+				if (arr[i] == arr[j]) { 
 					ct++;
 				}
 			}
-			if (ct == 0) { // 같은값이 없을때만 숫자를 더해준다.
+			if (ct == 0) { 
 				cnt++;
 			}
 		}
