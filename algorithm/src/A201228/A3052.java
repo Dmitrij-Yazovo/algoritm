@@ -1,13 +1,8 @@
-// 제출양식
+package A201228;
 
-
-import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {
-	//
-	//
-	
+public class A3052 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		int[] arr = new int[10];
@@ -33,7 +28,4 @@ public class Main {
 		s.close();
 		System.out.println(cnt);
 	}
-    
-    //
-    //
 }
