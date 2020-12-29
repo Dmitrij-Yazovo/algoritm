@@ -10,16 +10,17 @@ public class A8958 {
 		String arr[] = new String[s.nextInt()];
 
 		for (int i = 0; i < arr.length; i++) {
-			arr[i] = s.nextLine();
+			arr[i] = s.next();
 		}
 
 		s.close();
 
+		
 		for (int i = 0; i < arr.length; i++) {
 			int cnt = 0;
 			int total = 0;
-
-			for (int j = 0; j < arr[i].length(); j++) {
+			
+			for (int j = 0; j < arr[i].length(); ++j) {
 				if (arr[i].charAt(i) == 'O') { 	// 이부분을 .charAt()
 					cnt++;
 				} else {
