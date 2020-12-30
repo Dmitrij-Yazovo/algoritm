@@ -1,13 +1,8 @@
-// 제출양식
+package a201230;
 
-
-import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {
-	//
-	//
-	
+public class A10870 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		int num = s.nextInt();
@@ -24,7 +19,4 @@ public class Main {
 			return 1;
 		return fibo(n-1)+fibo(n-2);
 	}
-    
-    //
-    //
 }
