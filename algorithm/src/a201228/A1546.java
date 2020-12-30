@@ -21,6 +21,7 @@ public class A1546 {
 		int[] aNew = new int[n];
 		for(int i = 0; i<aNew.length;i++) {
 			aNew[i] = (a[i]/max)*100;
+			total += aNew[i];
 		}
 
 

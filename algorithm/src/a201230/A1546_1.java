@@ -1,13 +1,8 @@
-// 제출양식
+package a201230;
 
-
-import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {
-	//
-	//
-	
+public class A1546_1 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		int n = s.nextInt();
@@ -35,7 +30,4 @@ public class Main {
 		
 		
 	}
-    
-    //
-    //
 }
