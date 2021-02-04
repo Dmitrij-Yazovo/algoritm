@@ -16,7 +16,16 @@ public class A2292 {
 		int a = Integer.parseInt(st.nextToken());
 		
 		int start = 1;
-		int plus = 5;
+		int cnt = 1;
+		
+		if(a == 1){
+			System.out.println(a);
+		} else {
+			while(start<a) 
+				start += 6*(cnt++);
+			System.out.println(cnt);
+		}
+		
 		
 		
 		
