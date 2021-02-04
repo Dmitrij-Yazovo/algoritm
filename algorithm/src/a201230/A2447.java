@@ -11,6 +11,7 @@ public class A2447 {
 		
 		star(k);
 	}
+	
 	public static void star(int n) {
 		if(n<=1) {
 			int[][] arr;
@@ -73,6 +74,11 @@ public class A2447 {
 	3	82  ...
 	4	.
 	5
+	
+	
+	
+	
+	---
 	
 
 */
